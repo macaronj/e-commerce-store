@@ -19,7 +19,7 @@ const MainNav: React.FC<MainNavProps> = ({ data }) => {
     active: pathName === `/category/${route.id}`,
   }));
   return (
-    <nav className="flex items-center mx-6 space-x-4 lg:space-x-6">
+    <nav className="flex items-center mx-6 space-x-4 lg:space-x-6 overflow-x-auto">
       {routes.map((route) => (
         <Link
           href={route.href}
