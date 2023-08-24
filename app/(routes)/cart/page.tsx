@@ -6,7 +6,9 @@ import { useEffect, useState } from "react";
 import CartItem from "./components/cart-item";
 import Summary from "./components/summary";
 
-const Cart = () => {
+export const revalidate = 0;
+
+const CartPage = () => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
@@ -44,4 +46,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default CartPage;
