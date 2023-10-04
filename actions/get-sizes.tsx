@@ -1,3 +1,5 @@
+"use server";
+
 import { Size } from "@/types";
 
 const URL = `${process.env.NEXT_PUBLIC_API_URL}/sizes`;

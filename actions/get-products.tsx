@@ -1,3 +1,5 @@
+"use server";
+
 import { Product } from "@/types";
 import qs from "query-string";
 
